@@ -63,7 +63,7 @@ public class Blackjack {
                             System.out.println("\nYour card is a KING!");
                             hand += 10;
                         } else {
-                            System.out.println("\nYour card is a " + card + "!");
+                            System.out.println("\nYour card is a " + card + "!"); //prints out what the card is
                             hand += card;
                         }
                         System.out.println("Your hand is: " + hand);
@@ -111,7 +111,7 @@ public class Blackjack {
                         game=true;
                         break;
                     default:
-                        System.out.println("Invalid input!\nPlease enter an integer value between 1 and 4.");
+                        System.out.println("Invalid input!\nPlease enter an integer value between 1 and 4."); //states that the user cannot input the chosen integer
                 }
             }
             if (game) {
